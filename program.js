@@ -1,5 +1,5 @@
 var express = require('express');
-    var app = express();
+var app     = express();
 
     app.set('port', (process.argv[2] || 3000));
     app.set('view engine', 'jsx');
